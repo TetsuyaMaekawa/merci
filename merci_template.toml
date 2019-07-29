@@ -1,0 +1,18 @@
+# アプリケーション名
+app_name = "merci"
+# ログレベル
+log_level = "your logLevel"
+log_path = "your logpath"
+
+# client
+[client]
+    [client.rds]
+    dialect = "yourDBName"
+    dsn = "yourDBDSN"
+    idle_conn = 10
+    max_conn = 10
+    debug = true
+    
+    [client.line]
+    channelSecret = "yourChannelSecret"
+    accessToken = "yourAccessToken"
